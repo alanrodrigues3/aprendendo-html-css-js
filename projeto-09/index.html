@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <!-- Aqui começa o cabeçalho -->
+  <head>
+    <title>Aulinha do Alan</title>
+    <link rel="icon" type="image/png" href="assets/images/logo-instagram.png" />
+
+    <!-- link: ctrl+space -> link:css -->
+    <link rel="stylesheet" href="assets/styles/styles.css" />
+
+    <link rel=""""fasdfad />
+
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <!-- Aqui termina o cabeçalho -->
+
+  <body>
+    <div class="container">
+      <!-- TAGS HTML disponíveis: https://www.w3schools.com/TAgs/default.asp -->
+      <img src="assets/images/logo-instagram.png" class="image" alt="sla" />
+
+      <div>
+        <div class="mb-3">
+          <label for="first_name" class="form-label">Your First Name</label>
+
+          <input
+            type="text"
+            class="form-control"
+            id="first_name"
+            name="first_name"
+            placeholder="Type your name"
+          />
+        </div>
+
+        <!-- Input types:
+    text, email, number, date, time, 
+    -->
+        <div class="mb-3">
+          <label class="form-label" for="birth_date">Birth date</label>
+          <input
+            class="form-control"
+            type="date"
+            name="birth_date"
+            id="birth_date"
+          />
+        </div>
+
+        <div class="mb-3">
+          <label class="form-label" for="age">Your Age</label>
+          <input
+            class="form-control"
+            type="number"
+            name="age"
+            id="age"
+            min="0"
+            max="200"
+          />
+        </div>
+
+        <div class="mb-3">
+          <label for="email" class="form-label">Email address</label>
+
+          <input
+            type="email"
+            class="form-control"
+            id="email"
+            name="email"
+            placeholder="name@example.com"
+          />
+        </div>
+
+        <div class="mb-3">
+          <label for="bio" class="form-label">Bio</label>
+
+          <textarea
+            class="form-control"
+            id="bio"
+            name="bio"
+            rows="3"
+          ></textarea>
+        </div>
+
+        <div>
+          <button class="btn btn-primary" onclick="registerUser()">
+            Clique aqui!
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <script src="assets/scripts/scripts.js"></script>
+  </body>
+</html>

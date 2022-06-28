@@ -1,0 +1,23 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 80vh;
+  background-color: rgb(212, 212, 212);
+}
+button {
+  min-height: 1vh;
+  position: relative;
+  top: 10px;
+  left: 65px;
+}
+a {
+  position: relative;
+  bottom: 21px;
+  right: 50px;
+  font-size: small;
+}
+h2 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
