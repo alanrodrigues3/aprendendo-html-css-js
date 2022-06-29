@@ -1,0 +1,43 @@
+body {
+  background-color: rgb(40, 41, 44);
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 63vh;
+}
+
+.botao {
+  left: 950px;
+  bottom: 197px;
+  background-color: #303134;
+  border: 1px solid #303134;
+  border-radius: 4px;
+  color: #e8eaed;
+  font-family: arial, sans-serif;
+  font-size: 14px;
+  margin: 11px 4px;
+  padding: 0 16px;
+  line-height: 27px;
+  height: 36px;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+}
+.barra-de-pesquisa {
+  border-radius: 50px;
+  background-color: rgb(48, 48, 48);
+  border: 1px solid #303134;
+  color: #ffffff;
+  word-wrap: break-word;
+  outline: none;
+  -webkit-tap-highlight-color: transparent;
+  height: 48px;
+  min-width: 500px;
+  font-size: 20px;
+  margin: 20px 20px 20px 20px;
+  padding-left: 20px;
+}
