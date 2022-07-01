@@ -1,5 +1,7 @@
 body {
   background-color: rgb(40, 41, 44);
+  position: relative;
+  bottom: -90px;
 }
 .container {
   display: flex;
@@ -29,13 +31,13 @@ body {
 }
 .barra-de-pesquisa {
   border-radius: 50px;
-  background-color: rgb(48, 48, 48);
+  background-color: transparent;
   border: 1px solid #303134;
   color: #ffffff;
   word-wrap: break-word;
   outline: none;
   -webkit-tap-highlight-color: transparent;
-  height: 48px;
+  height: 44px;
   min-width: 500px;
   font-size: 20px;
   margin: 20px 20px 20px 20px;

@@ -1,6 +1,6 @@
 const URL_BASE_DO_GOOGLE_SEARCH = "https://www.google.com/search?q=";
 const URL_BASE_DO_GOOGLE_DOODLES = "https://www.google.com/doodles";
-
+const URL_INSTAGRAM_PROFILES = "https://www.instagram.com/ewallann/";
 /**
  * Pesquisa no google através do campo digitado na barra de pesquisa
  */
@@ -43,5 +43,12 @@ function pesquisarNoGoogle() {
  */
 function estouComSorte() {
   const url = URL_BASE_DO_GOOGLE_DOODLES;
+  window.location.replace(url);
+}
+
+//*/
+
+function Instagram() {
+  const url = URL_INSTAGRAM_PROFILES;
   window.location.replace(url);
 }
